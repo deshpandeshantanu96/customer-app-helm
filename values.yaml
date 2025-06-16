@@ -15,5 +15,6 @@ env:
   DB_PORT: "3306"
   DB_USERNAME: "admin"
   DB_NAME: "mydatabase"
+  DB_PASSWORD: "2cd8baefe644dd761b04ae3453a5039b"
   DB_PASSWORD_SECRET_NAME: "db-password-secret"
   DB_PASSWORD_SECRET_KEY: "password"
