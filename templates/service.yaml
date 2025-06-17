@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: {{ .Chart.Name }}
 spec:
-  type: {{ .Values.service.type }}
+  type: {{ .Values.service.type }}  # This will use 'ClusterIP'
   selector:
     app: {{ .Chart.Name }}
   ports:
